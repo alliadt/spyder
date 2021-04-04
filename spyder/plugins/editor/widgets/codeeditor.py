@@ -387,7 +387,7 @@ class CodeEditor(TextEditBaseWidget):
         # Highlights and flag colors
         self.warning_color = SpyderPalette.COLOR_WARN_2
         self.error_color = SpyderPalette.COLOR_ERROR_1
-        self.todo_color = SpyderPalette.ICON_2
+        self.todo_color = SpyderPalette.GROUP_9
         self.breakpoint_color = SpyderPalette.ICON_3
         self.occurrence_color = QColor(SpyderPalette.GROUP_2).lighter(160)
         self.found_results_color = QColor(SpyderPalette.COLOR_OCCURRENCE_4)
@@ -1489,10 +1489,7 @@ class CodeEditor(TextEditBaseWidget):
     def handle_hover_response(self, contents):
         """Handle hover response."""
         if running_under_pytest():
-            try:
-                from unittest.mock import Mock
-            except ImportError:
-                from mock import Mock  # Python 2
+            from unittest.mock import Mock
 
             # On some tests this is returning a Mock
             if isinstance(contents, Mock):

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,8 +13,8 @@
    height="250"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.92.2 (unknown)"
-   sodipodi:docname="splash.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="splash_spyder5_inkplain2.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="D:\Python\spyder\img_src\ico32.png"
    inkscape:export-xdpi="214.0081"
@@ -49,8 +47,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="1050"
-     inkscape:window-width="1839"
+     inkscape:window-height="855"
+     inkscape:window-width="1251"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      borderopacity="1.0"
@@ -58,15 +56,16 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:zoom="1.4142136"
-     inkscape:cx="172.15883"
-     inkscape:cy="149.59093"
-     inkscape:window-x="81"
-     inkscape:window-y="30"
+     inkscape:cx="231.642"
+     inkscape:cy="36.453848"
+     inkscape:window-x="118"
+     inkscape:window-y="31"
      inkscape:current-layer="svg2"
      showgrid="false"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0" />
   <defs
      id="defs4">
     <linearGradient
@@ -395,14 +394,14 @@
          style="fill:none;stroke:#ee0000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <path
          transform="matrix(0.6055665,0.6055665,-0.6286135,0.6286135,75.900286,-31.30135)"
+         id="path3340"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ee0000;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="M 102.50982,45.035332 A 5.9274387,10.808859 0 0 1 96.582382,55.844191 5.9274387,10.808859 0 0 1 90.654943,45.035332 5.9274387,10.808859 0 0 1 96.582382,34.226473 5.9274387,10.808859 0 0 1 102.50982,45.035332 Z"
+         sodipodi:type="arc"
          sodipodi:ry="10.808859"
          sodipodi:rx="5.9274387"
          sodipodi:cy="45.035332"
-         sodipodi:cx="96.582382"
-         id="path3340"
-         style="fill:#ff0000;fill-opacity:1;stroke:#ee0000;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         sodipodi:cx="96.582382" />
     </g>
   </g>
   <g
@@ -434,23 +433,6 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666794px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ffffff;fill-opacity:1"
        id="path943" />
   </g>
-  <g
-     aria-label="4"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Candara;-inkscape-font-specification:Candara;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none"
-     id="text2451-4">
-    <path
-       d="m 357.12319,114.96486 h -2.208 v 6.72 h -2.4 v -6.72 h -9.088 v -2.24 l 8.928,-12.16 h 2.56 v 12.16 h 2.208 z m -4.608,-2.24 v -8.672 l -6.368,8.672 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ffff00;fill-opacity:1"
-       id="path946"
-       inkscape:connector-curvature="0" />
-  </g>
-  <rect
-     style="fill:none;stroke:#ffff7b;stroke-width:0.99700844000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.64921468;stroke-dasharray:none"
-     id="rect3215"
-     width="499.00299"
-     height="249.00299"
-     x="0.49850422"
-     y="0.49849206" />
   <rect
      style="fill:#1a5f15;fill-opacity:1;stroke-width:1.14124453"
      id="rect895"
@@ -464,7 +446,7 @@
      x="209.48087"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Candara;-inkscape-font-specification:Candara;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666794px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ffffff;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ffffff;fill-opacity:1"
        y="-70.065079"
        x="209.48087"
        id="tspan887"
@@ -475,16 +457,14 @@
      x="340.66754"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Candara;-inkscape-font-specification:Candara;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
-       dy="-0.35355338"
-       dx="0.35355338"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ffff00;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ff9700;fill-opacity:1"
        y="-87.254471"
        x="340.66754"
        id="tspan891"
-       sodipodi:role="line">4</tspan></text>
+       sodipodi:role="line">5</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
+     style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
      x="212.49998"
      y="-134.49998"
      id="text899"><tspan
@@ -496,46 +476,55 @@
      id="text923"
      y="-149.49998"
      x="-187"
-     style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
        y="-149.49998"
        x="-187"
        id="tspan913"
        sodipodi:role="line"
-       style="font-size:13.33333302px;line-height:1em">Notes: 0: Using Inkscape and Quattrocento Sans </tspan><tspan
+       style="font-size:13.3333px;line-height:1em">Notes: 0: Using Inkscape and Quattrocento Sans </tspan><tspan
        y="-128.16666"
        x="-187"
        sodipodi:role="line"
-       style="font-size:13.33333302px;line-height:1em"
+       style="font-size:13.3333px;line-height:1em"
        id="tspan953">           1: Change the editable text</tspan><tspan
        id="tspan915"
        y="-106.83331"
        x="-187"
        sodipodi:role="line"
-       style="font-size:13.33333302px;line-height:1em">           2: Duplicate the editable text</tspan><tspan
+       style="font-size:13.3333px;line-height:1em">           2: Duplicate the editable text</tspan><tspan
        y="-85.499985"
        x="-187"
        sodipodi:role="line"
-       style="font-size:13.33333302px;line-height:1em"
+       style="font-size:13.3333px;line-height:1em"
        id="tspan949">           3: Move the duplicate text over the original</tspan><tspan
        id="tspan921"
        y="-64.166649"
        x="-187"
        sodipodi:role="line"
-       style="font-size:13.33333302px;line-height:1em">           4: Delete the original text</tspan><tspan
+       style="font-size:13.3333px;line-height:1em">           4: Delete the original text</tspan><tspan
        y="-42.833313"
        x="-187"
        sodipodi:role="line"
        id="tspan927"
-       style="font-size:13.33333302px;line-height:1em">           5: Convert the new logo text to a path</tspan><tspan
+       style="font-size:13.3333px;line-height:1em">           5: Convert the new logo text to a path</tspan><tspan
        y="-21.499981"
        x="-187"
        sodipodi:role="line"
        id="tspan931"
-       style="font-size:13.33333302px;line-height:1em">               with: Path &gt; Object to Path </tspan><tspan
+       style="font-size:13.3333px;line-height:1em">               with: Path &gt; Object to Path </tspan><tspan
        y="-0.16664696"
        x="-187"
        sodipodi:role="line"
-       id="tspan929"
-       style="font-size:16px;line-height:1em" /></text>
+       id="tspan929" /></text>
+  <g
+     aria-label="5"
+     id="text893-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Candara;-inkscape-font-specification:Candara;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none"
+     transform="translate(-2)">
+    <path
+       d="m 360.42441,116.42996 q 0,1.625 -0.59375,3.10938 -0.59375,1.48437 -1.625,2.5 -1.125,1.09375 -2.6875,1.6875 -1.54688,0.57812 -3.59375,0.57812 -1.90625,0 -3.67188,-0.40625 -1.76562,-0.39062 -2.98437,-0.95312 v -3.29688 h 0.21875 q 1.28125,0.8125 3,1.39063 1.71875,0.5625 3.375,0.5625 1.10937,0 2.14062,-0.3125 1.04688,-0.3125 1.85938,-1.09375 0.6875,-0.67188 1.03125,-1.60938 0.35937,-0.9375 0.35937,-2.17187 0,-1.20313 -0.42187,-2.03125 -0.40625,-0.82813 -1.14063,-1.32813 -0.8125,-0.59375 -1.98437,-0.82812 -1.15625,-0.25 -2.59375,-0.25 -1.375,0 -2.65625,0.1875 -1.26563,0.1875 -2.1875,0.375 v -11.98438 h 14 v 2.73438 h -10.98438 v 6.1875 q 0.67188,-0.0625 1.375,-0.0937 0.70313,-0.0312 1.21875,-0.0312 1.89063,0 3.3125,0.32812 1.42188,0.3125 2.60938,1.125 1.25,0.85938 1.9375,2.21875 0.6875,1.35938 0.6875,3.40625 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans';fill:#ff9700;fill-opacity:1"
+       id="path2397" />
+  </g>
 </svg>

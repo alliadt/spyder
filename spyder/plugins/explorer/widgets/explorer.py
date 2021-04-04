@@ -32,7 +32,7 @@ from qtpy.QtWidgets import (QApplication, QDialog, QDialogButtonBox,
 # Local imports
 from spyder.api.config.decorators import on_conf_change
 from spyder.api.translations import get_translation
-from spyder.api.widgets import SpyderWidgetMixin
+from spyder.api.widgets.mixins import SpyderWidgetMixin
 from spyder.config.base import get_home_dir, running_under_pytest
 from spyder.config.main import NAME_FILTERS
 from spyder.plugins.explorer.widgets.utils import (
@@ -309,6 +309,7 @@ class DirView(QTreeView, SpyderWidgetMixin):
         new_package_action = self.create_action(
             DirViewActions.NewPackage,
             text=_("Python Package..."),
+            icon=self.create_icon('package_new'),
             triggered=lambda: self.new_package(),
         )
 
@@ -1822,19 +1823,19 @@ class ExplorerTreeWidget(DirView):
         self.previous_action = self.create_action(
             ExplorerTreeWidgetActions.Previous,
             text=_("Previous"),
-            icon=self.create_icon('ArrowBack'),
+            icon=self.create_icon('previous'),
             triggered=self.go_to_previous_directory,
         )
         self.next_action = self.create_action(
             ExplorerTreeWidgetActions.Next,
             text=_("Next"),
-            icon=self.create_icon('ArrowForward'),
+            icon=self.create_icon('next'),
             triggered=self.go_to_next_directory,
         )
         self.create_action(
             ExplorerTreeWidgetActions.Parent,
             text=_("Parent"),
-            icon=self.create_icon('ArrowUp'),
+            icon=self.create_icon('up'),
             triggered=self.go_to_parent_directory
         )
 

@@ -26,7 +26,7 @@ from qtpy.QtWidgets import QInputDialog, QLineEdit, QVBoxLayout
 
 # Local imports
 from spyder.api.translations import get_translation
-from spyder.api.widgets import PluginMainWidget
+from spyder.api.widgets.main_widget import PluginMainWidget
 from spyder.api.config.decorators import on_conf_change
 from spyder.app.solver import find_internal_plugins
 from spyder.config.base import DEV, get_debug_level
@@ -412,7 +412,8 @@ class ConsoleWidget(PluginMainWidget):
                     self.get_conf('selected', section='appearance'))
                 self.error_dlg.close_btn.clicked.connect(self.close_error_dlg)
                 self.error_dlg.rejected.connect(self.remove_error_dlg)
-                self.error_dlg.details.go_to_error.connect(self.go_to_error)
+                self.error_dlg.details.sig_go_to_error_requested.connect(
+                    self.go_to_error)
 
             # Set the report repository
             self.error_dlg.set_github_repo_org(repo)

@@ -24,6 +24,7 @@ from spyder.plugins.layout.layouts import (HorizontalSplitLayout,
                                            MatlabLayout, RLayout,
                                            SpyderLayout, VerticalSplitLayout,
                                            DefaultLayouts)
+from spyder.plugins.preferences.widgets.container import PreferencesActions
 from spyder.plugins.toolbar.api import (
     ApplicationToolbars, MainToolbarSections)
 from spyder.py3compat import qbytearray_to_str  # FIXME:
@@ -113,16 +114,19 @@ class Layout(SpyderPluginV2):
         toolbars = self.get_plugin(Plugins.Toolbar)
         if toolbars:
             # Add actions to Main application toolbar
-            for main_layout_action in [container._maximize_dockwidget_action,
-                                       container._fullscreen_action]:
-                toolbars.add_item_to_application_toolbar(
-                    main_layout_action,
-                    toolbar_id=ApplicationToolbars.Main,
-                    section=MainToolbarSections.LayoutSection,
-                    before_section=MainToolbarSections.ApplicationSection)
+            before_action = self.get_action(
+                PreferencesActions.Show,
+                plugin=Plugins.Preferences
+            )
+
+            toolbars.add_item_to_application_toolbar(
+                container._maximize_dockwidget_action,
+                toolbar_id=ApplicationToolbars.Main,
+                section=MainToolbarSections.ApplicationSection,
+                before=before_action
+            )
 
         # Update actions icons and text
-        self._update_maximize_dockwidget_action()
         self._update_fullscreen_action()
 
     def before_mainwindow_visible(self):
@@ -529,28 +533,11 @@ class Layout(SpyderPluginV2):
                     plugin._toggle_view_action.setChecked(False)
                     break
 
-    def _update_maximize_dockwidget_action(self):
-        if self._state_before_maximizing is None:
-            text = _("Maximize current pane")
-            tip = _("Maximize current pane")
-            icon = self.create_icon('maximize')
-        else:
-            text = _("Restore current pane")
-            tip = _("Restore pane to its original size")
-            icon = self.create_icon('unmaximize')
-
-        container = self.get_container()
-        container._maximize_dockwidget_action.setText(text)
-        container._maximize_dockwidget_action.setIcon(icon)
-        container._maximize_dockwidget_action.setToolTip(tip)
-
     @property
     def maximize_action(self):
         """Expose maximize current dockwidget action."""
         return self.get_container()._maximize_dockwidget_action
 
-    @Slot()
-    @Slot(bool)
     def maximize_dockwidget(self, restore=False):
         """
         Maximize current dockwidget.
@@ -648,8 +635,6 @@ class Layout(SpyderPluginV2):
             except AttributeError:
                 # Old API
                 self._last_plugin.get_focus_widget().setFocus()
-
-        self._update_maximize_dockwidget_action()
 
     def _update_fullscreen_action(self):
         if self._fullscreen_flag:
